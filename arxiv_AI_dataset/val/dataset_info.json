@@ -1,0 +1,48 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_size": 2877455326,
+  "description": "",
+  "download_checksums": {
+    "D:\\Projects\\research-paper-title-generator-local\\data\\arxiv-metadata-oai-snapshot.json": {
+      "num_bytes": 3225476133,
+      "checksum": "92386ef521a73eb50257eed43edab9fc3fc326814f483d18c8eca9a87b956e96"
+    }
+  },
+  "download_size": 3225476133,
+  "features": {
+    "abstract": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "title": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "post_processed": null,
+  "post_processing_size": null,
+  "size_in_bytes": 6102931459,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 2877455326,
+      "num_examples": 1974617,
+      "dataset_name": "json"
+    }
+  },
+  "supervised_keys": null,
+  "task_templates": null,
+  "version": {
+    "version_str": "0.0.0",
+    "description": null,
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
