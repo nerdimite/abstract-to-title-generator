@@ -40,5 +40,5 @@ To train the model, run the [Train.ipynb](Train.ipynb) notebook. For logging in 
 
 ### Deployment
 
-- The model is deployed as an API using CellStrat Hub. You can learn more about deployment [here](https://docs.cellstrathub.com/HubAPI Deployment 🚀/quickstart)
+- The model is deployed as an API using [CellStrat Hub](https://cellstrathub.com/). You can learn more about deployment [here](https://docs.cellstrathub.com/hubapi%20deployment%20%F0%9F%9A%80/quickstart/)
 - The Next.js Frontend App's source code can be found at [a2t-app/](a2t-app/)
