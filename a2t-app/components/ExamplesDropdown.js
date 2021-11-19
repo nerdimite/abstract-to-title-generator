@@ -66,7 +66,7 @@ export default function ExamplesDropdown(props) {
               leaveFrom="opacity-100"
               leaveTo="opacity-0"
             >
-              <Listbox.Options className="origin-top-right absolute right-0 z-10 mt-1 bg-white shadow-lg max-h-56 rounded-md py-1 text-base ring-1 ring-black ring-opacity-5  focus:outline-none sm:text-sm">
+              <Listbox.Options className="origin-top-right right-0 absolute z-10 mt-1 bg-white shadow-lg max-h-56 rounded-md py-1 text-base ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
                 {examples.map((example) => (
                   <Listbox.Option
                     key={example.id}

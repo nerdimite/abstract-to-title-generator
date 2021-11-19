@@ -16,7 +16,7 @@ export const Paper = (props) => {
 
 export const Label = (props) => {
   return (
-    <div className="text-gray-600 font-semibold text-lg mb-1">
+    <div className="text-gray-600 font-semibold text-md md:text-lg mb-1">
       {props.children}
     </div>
   );
