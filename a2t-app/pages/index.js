@@ -1,13 +1,6 @@
 import Head from "next/head";
 import { useEffect, useState } from "react";
-import {
-  Container,
-  Paper,
-  Label,
-  Textarea,
-  Button,
-  BadgeButton,
-} from "../components/core";
+import { Container, Paper, Label, Textarea, Button } from "../components/core";
 import ExamplesDropdown from "../components/ExamplesDropdown";
 
 export default function Home() {
@@ -54,7 +47,7 @@ export default function Home() {
   };
 
   const predict = async () => {
-    setStatus("⏳ The Model is Generating the Title ...");
+    setStatus("⏳ The Model is Generating the Title");
     setLoading(true);
 
     try {
@@ -97,8 +90,12 @@ export default function Home() {
       {/* <main className="flex flex-col w-full flex-1 px-20"> */}
       <Container>
         <div className="text-center mb-6">
-          <h1 className="text-2xl sm:text-4xl font-bold text-blue-600 mt-4">
-            🤖 Abstract2Title Generator ✒️
+          <h1 className="text-2xl sm:text-4xl mt-4">
+            🤖{" "}
+            <span className="font-bold text-blue-600">
+              Abstract2Title Generator
+            </span>{" "}
+            ✒️
           </h1>
 
           <p className="mt-3 text-lg sm:text-xl text-gray-700">
@@ -114,7 +111,16 @@ export default function Home() {
               href="https://github.com/nerdimite/abstract-to-title-generator"
               target="_blank"
             >
-              <BadgeButton>Get Source Code💻</BadgeButton>
+              <div
+                className="py-2 px-3  inline-block rounded-full \
+                  bg-blue-200 text-sm hover:cursor-pointer hover:ring-1 hover:ring-blue-600 \
+                  transition ease-in-out duration-200"
+              >
+                <span className="font-semibold text-blue-600">
+                  Get Source Code{" "}
+                </span>
+                💻
+              </div>
             </a>
           </div>
           <p className="mb-2 text-base text-gray-700">
@@ -126,7 +132,7 @@ export default function Home() {
           </p>
 
           <div className="flex justify-between items-center flex-wrap">
-            <Label>Abstract of the Paper 📜</Label>
+            <Label emoji="📜">Abstract of the Paper</Label>
             <ExamplesDropdown
               setAbstract={(val) => {
                 document.getElementById("abstract").value = val;
@@ -161,7 +167,7 @@ export default function Home() {
         </Paper>
 
         <Paper>
-          <Label>Generated Title ✒️</Label>
+          <Label emoji="✒️">Generated Title</Label>
           <div className="text-gray-600 text-lg border p-2">{title}</div>
         </Paper>
       </Container>

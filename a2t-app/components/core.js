@@ -16,8 +16,9 @@ export const Paper = (props) => {
 
 export const Label = (props) => {
   return (
-    <div className="text-gray-600 font-semibold text-md md:text-lg mb-1">
-      {props.children}
+    <div className=" text-md md:text-lg mb-1">
+      <span className="text-gray-600 font-semibold">{props.children}</span>{" "}
+      {props.emoji}
     </div>
   );
 };
@@ -67,18 +68,6 @@ export const Button = (props) => {
       )}
       {props.children}
     </button>
-  );
-};
-
-export const BadgeButton = (props) => {
-  return (
-    <div
-      className="py-2 px-3 font-semibold inline-block rounded-full \
-     bg-blue-200 text-blue-600 text-sm hover:cursor-pointer hover:ring-1 hover:ring-blue-600 \
-     transition ease-in-out duration-200"
-    >
-      {props.children}
-    </div>
   );
 };
 
