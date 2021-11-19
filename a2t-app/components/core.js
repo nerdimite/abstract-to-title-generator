@@ -25,7 +25,7 @@ export const Textarea = (props) => {
     <textarea
       type="text"
       className="w-full resize-none mt-1 p-2 border rounded-md text-gray-700 focus:outline-none focus:border-blue-600"
-      rows="8"
+      rows="7"
       {...props}
     />
   );
@@ -71,7 +71,7 @@ export const Button = (props) => {
 export const BadgeButton = (props) => {
   return (
     <div
-      className="py-2 px-3 font-semibold inline-block rounded-full mt-3 \
+      className="py-2 px-3 font-semibold inline-block rounded-full \
      bg-blue-200 text-blue-600 text-sm hover:cursor-pointer hover:ring-1 hover:ring-blue-600 \
      transition ease-in-out duration-200"
     >

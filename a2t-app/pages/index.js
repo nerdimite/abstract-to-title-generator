@@ -105,15 +105,26 @@ export default function Home() {
             A T5-based Sequence to Sequence Model for Generating Titles for ML
             Papers using the Abstract{" "}
           </p>
-          <a
-            href="https://github.com/nerdimite/abstract-to-title-generator"
-            target="_blank"
-          >
-            <BadgeButton>Get Source Code 💻</BadgeButton>
-          </a>
         </div>
 
         <Paper>
+          <div className="flex justify-between items-center mb-2">
+            <Label>About the project</Label>
+            <a
+              href="https://github.com/nerdimite/abstract-to-title-generator"
+              target="_blank"
+            >
+              <BadgeButton>Get Source Code 💻</BadgeButton>
+            </a>
+          </div>
+          <p className="mb-2 text-base text-gray-700">
+            Writing a research paper is one thing and coming up with a catchy
+            title for it is another. This tool can help you in generating titles
+            for your papers by taking the abstract as the input. If you want to
+            just test the model, you can choose an example abstract from the
+            dropdown on the right.
+          </p>
+
           <div className="flex justify-between items-center">
             <Label>Abstract of the Paper 📜</Label>
             <ExamplesDropdown
@@ -130,19 +141,22 @@ export default function Home() {
               setAbstract(e.target.value);
             }}
           />
-          <p>
-            <span className="font-semibold text-gray-700">Status:</span>{" "}
-            {status}
-          </p>
-          <div className="flex items-center justify-center mt-2">
-            <Button
-              disabled={loading}
-              onClick={async () => {
-                await predict();
-              }}
-            >
-              Generate Title 📝
-            </Button>
+          <div className="flex justify-between items-start">
+            <p>
+              <span className="font-semibold text-gray-700">Status:</span>{" "}
+              {status}
+            </p>
+            <div className="flex items-center justify-center mt-2">
+              <Button
+                className="w-full"
+                disabled={loading}
+                onClick={async () => {
+                  await predict();
+                }}
+              >
+                Generate Title 📝
+              </Button>
+            </div>
           </div>
         </Paper>
 
