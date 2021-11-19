@@ -31,12 +31,14 @@ This repository contains the processed dataset already in [arxiv_AI_dataset/](ar
 
 ### Training
 
-TBD
+To train the model, run the [Train.ipynb](Train.ipynb) notebook. For logging in weights and biases, you would want to change the username in the `wandb.init()` cell in the beginning.
 
 ### Inference
 
-TBD
+1. Download and extract the model weights from [here]()
+2. Run the [Predict.ipynb](Predict.ipynb) notebook to perform inference using the [inference.py](inference.py) module.
 
 ### Deployment
 
-TBD
+- The model is deployed as an API using CellStrat Hub. You can learn more about deployment [here](https://docs.cellstrathub.com/HubAPI Deployment 🚀/quickstart)
+- The Next.js Frontend App's source code can be found at [a2t-app/](a2t-app/)
