@@ -35,7 +35,7 @@ To train the model, run the [Train.ipynb](Train.ipynb) notebook. For logging in 
 
 ### Inference
 
-1. Download and extract the model weights from [here]()
+1. Download and extract the model weights from [here](https://gradient-fire.s3.amazonaws.com/abstract2title-model.zip)
 2. Run the [Predict.ipynb](Predict.ipynb) notebook to perform inference using the [inference.py](inference.py) module.
 
 ### Deployment
