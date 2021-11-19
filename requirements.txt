@@ -1,0 +1,5 @@
+transformers==4.12.3
+datasets==1.15.1
+tokenizers==0.10.3
+sentencepiece==0.1.96
+rouge-score==0.0.4
