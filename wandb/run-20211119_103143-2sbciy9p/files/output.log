@@ -1,0 +1,169 @@
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+***** Running training *****
+  Num examples = 36074
+  Num Epochs = 8
+  Instantaneous batch size per device = 8
+  Total train batch size (w. parallel, distributed & accumulation) = 8
+  Gradient Accumulation steps = 1
+  Total optimization steps = 36080
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+Saving model checkpoint to model-t5-base/checkpoint-500
+Configuration saved in model-t5-base/checkpoint-500/config.json
+Model weights saved in model-t5-base/checkpoint-500/pytorch_model.bin
+tokenizer config file saved in model-t5-base/checkpoint-500/tokenizer_config.json
+Special tokens file saved in model-t5-base/checkpoint-500/special_tokens_map.json
+Copy vocab file to model-t5-base/checkpoint-500/spiece.model
+***** Running Evaluation *****
+  Num examples = 2004
+  Batch size = 8
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Unzipping tokenizers/punkt.zip.
+PyTorch: setting up devices
+***** Running training *****
+  Num examples = 36074
+  Num Epochs = 5
+  Instantaneous batch size per device = 8
+  Total train batch size (w. parallel, distributed & accumulation) = 8
+  Gradient Accumulation steps = 1
+  Total optimization steps = 22550
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+Saving model checkpoint to model-t5-base/checkpoint-500
+Configuration saved in model-t5-base/checkpoint-500/config.json
+Model weights saved in model-t5-base/checkpoint-500/pytorch_model.bin
+tokenizer config file saved in model-t5-base/checkpoint-500/tokenizer_config.json
+Special tokens file saved in model-t5-base/checkpoint-500/special_tokens_map.json
+Copy vocab file to model-t5-base/checkpoint-500/spiece.model
+***** Running Evaluation *****
+  Num examples = 2004
+  Batch size = 8
+Saving model checkpoint to model-t5-base/checkpoint-1000
+Configuration saved in model-t5-base/checkpoint-1000/config.json
+Model weights saved in model-t5-base/checkpoint-1000/pytorch_model.bin
+tokenizer config file saved in model-t5-base/checkpoint-1000/tokenizer_config.json
+Special tokens file saved in model-t5-base/checkpoint-1000/special_tokens_map.json
+Copy vocab file to model-t5-base/checkpoint-1000/spiece.model
+Saving model checkpoint to model-t5-base/checkpoint-1500
+Configuration saved in model-t5-base/checkpoint-1500/config.json
+Model weights saved in model-t5-base/checkpoint-1500/pytorch_model.bin
+tokenizer config file saved in model-t5-base/checkpoint-1500/tokenizer_config.json
+Special tokens file saved in model-t5-base/checkpoint-1500/special_tokens_map.json
+Copy vocab file to model-t5-base/checkpoint-1500/spiece.model
+***** Running Evaluation *****
+  Num examples = 2004
+  Batch size = 8
+Saving model checkpoint to model-t5-base/checkpoint-2000
+Configuration saved in model-t5-base/checkpoint-2000/config.json
+Model weights saved in model-t5-base/checkpoint-2000/pytorch_model.bin
+tokenizer config file saved in model-t5-base/checkpoint-2000/tokenizer_config.json
+Special tokens file saved in model-t5-base/checkpoint-2000/special_tokens_map.json
+Copy vocab file to model-t5-base/checkpoint-2000/spiece.model
+Deleting older checkpoint [model-t5-base/checkpoint-500] due to args.save_total_limit
+Saving model checkpoint to model-t5-base/checkpoint-2500
+Configuration saved in model-t5-base/checkpoint-2500/config.json
+Model weights saved in model-t5-base/checkpoint-2500/pytorch_model.bin
+tokenizer config file saved in model-t5-base/checkpoint-2500/tokenizer_config.json
+Special tokens file saved in model-t5-base/checkpoint-2500/special_tokens_map.json
+Copy vocab file to model-t5-base/checkpoint-2500/spiece.model
+Deleting older checkpoint [model-t5-base/checkpoint-1000] due to args.save_total_limit
+***** Running Evaluation *****
+  Num examples = 2004
+  Batch size = 8
+Saving model checkpoint to model-t5-base/checkpoint-3000
+Configuration saved in model-t5-base/checkpoint-3000/config.json
+Model weights saved in model-t5-base/checkpoint-3000/pytorch_model.bin
+tokenizer config file saved in model-t5-base/checkpoint-3000/tokenizer_config.json
+Special tokens file saved in model-t5-base/checkpoint-3000/special_tokens_map.json
+Copy vocab file to model-t5-base/checkpoint-3000/spiece.model
+Deleting older checkpoint [model-t5-base/checkpoint-1500] due to args.save_total_limit
+Saving model checkpoint to model-t5-base/checkpoint-3500
+Configuration saved in model-t5-base/checkpoint-3500/config.json
+Model weights saved in model-t5-base/checkpoint-3500/pytorch_model.bin
+tokenizer config file saved in model-t5-base/checkpoint-3500/tokenizer_config.json
+Special tokens file saved in model-t5-base/checkpoint-3500/special_tokens_map.json
+Copy vocab file to model-t5-base/checkpoint-3500/spiece.model
+Deleting older checkpoint [model-t5-base/checkpoint-2000] due to args.save_total_limit
+***** Running Evaluation *****
+  Num examples = 2004
+  Batch size = 8
+Saving model checkpoint to model-t5-base/checkpoint-4000
+Configuration saved in model-t5-base/checkpoint-4000/config.json
+Model weights saved in model-t5-base/checkpoint-4000/pytorch_model.bin
+tokenizer config file saved in model-t5-base/checkpoint-4000/tokenizer_config.json
+Special tokens file saved in model-t5-base/checkpoint-4000/special_tokens_map.json
+Copy vocab file to model-t5-base/checkpoint-4000/spiece.model
+Deleting older checkpoint [model-t5-base/checkpoint-2500] due to args.save_total_limit
+Saving model checkpoint to model-t5-base/checkpoint-4500
+Configuration saved in model-t5-base/checkpoint-4500/config.json
+Model weights saved in model-t5-base/checkpoint-4500/pytorch_model.bin
+tokenizer config file saved in model-t5-base/checkpoint-4500/tokenizer_config.json
+Special tokens file saved in model-t5-base/checkpoint-4500/special_tokens_map.json
+Copy vocab file to model-t5-base/checkpoint-4500/spiece.model
+Deleting older checkpoint [model-t5-base/checkpoint-3000] due to args.save_total_limit
+***** Running Evaluation *****
+  Num examples = 2004
+  Batch size = 8
+Saving model checkpoint to model-t5-base/checkpoint-5000
+Configuration saved in model-t5-base/checkpoint-5000/config.json
+Model weights saved in model-t5-base/checkpoint-5000/pytorch_model.bin
+tokenizer config file saved in model-t5-base/checkpoint-5000/tokenizer_config.json
+Special tokens file saved in model-t5-base/checkpoint-5000/special_tokens_map.json
+Copy vocab file to model-t5-base/checkpoint-5000/spiece.model
+Deleting older checkpoint [model-t5-base/checkpoint-3500] due to args.save_total_limit
+Saving model checkpoint to model-t5-base/checkpoint-5500
+Configuration saved in model-t5-base/checkpoint-5500/config.json
+Model weights saved in model-t5-base/checkpoint-5500/pytorch_model.bin
+tokenizer config file saved in model-t5-base/checkpoint-5500/tokenizer_config.json
+Special tokens file saved in model-t5-base/checkpoint-5500/special_tokens_map.json
+Copy vocab file to model-t5-base/checkpoint-5500/spiece.model
+Deleting older checkpoint [model-t5-base/checkpoint-4000] due to args.save_total_limit
+***** Running Evaluation *****
+  Num examples = 2004
+  Batch size = 8
+Saving model checkpoint to model-t5-base/checkpoint-6000
+Configuration saved in model-t5-base/checkpoint-6000/config.json
+Model weights saved in model-t5-base/checkpoint-6000/pytorch_model.bin
+tokenizer config file saved in model-t5-base/checkpoint-6000/tokenizer_config.json
+Special tokens file saved in model-t5-base/checkpoint-6000/special_tokens_map.json
+Copy vocab file to model-t5-base/checkpoint-6000/spiece.model
+Deleting older checkpoint [model-t5-base/checkpoint-4500] due to args.save_total_limit
+Exception in thread Thread-10:
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/pytorch/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/home/ubuntu/anaconda3/envs/pytorch/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/anaconda3/envs/pytorch/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 167, in check_status
+    status_response = self._interface.communicate_stop_status()
+  File "/home/ubuntu/anaconda3/envs/pytorch/lib/python3.8/site-packages/wandb/sdk/interface/interface.py", line 109, in communicate_stop_status
+    resp = self._communicate_stop_status(status)
+  File "/home/ubuntu/anaconda3/envs/pytorch/lib/python3.8/site-packages/wandb/sdk/interface/interface_queue.py", line 401, in _communicate_stop_status
+    resp = self._communicate(req, local=True)
+  File "/home/ubuntu/anaconda3/envs/pytorch/lib/python3.8/site-packages/wandb/sdk/interface/interface_queue.py", line 232, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/ubuntu/anaconda3/envs/pytorch/lib/python3.8/site-packages/wandb/sdk/interface/interface_queue.py", line 237, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Exception in thread Thread-11:
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/pytorch/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/home/ubuntu/anaconda3/envs/pytorch/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/anaconda3/envs/pytorch/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 149, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/home/ubuntu/anaconda3/envs/pytorch/lib/python3.8/site-packages/wandb/sdk/interface/interface.py", line 120, in communicate_network_status
+    resp = self._communicate_network_status(status)
+  File "/home/ubuntu/anaconda3/envs/pytorch/lib/python3.8/site-packages/wandb/sdk/interface/interface_queue.py", line 411, in _communicate_network_status
+    resp = self._communicate(req, local=True)
+  File "/home/ubuntu/anaconda3/envs/pytorch/lib/python3.8/site-packages/wandb/sdk/interface/interface_queue.py", line 232, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/ubuntu/anaconda3/envs/pytorch/lib/python3.8/site-packages/wandb/sdk/interface/interface_queue.py", line 237, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown

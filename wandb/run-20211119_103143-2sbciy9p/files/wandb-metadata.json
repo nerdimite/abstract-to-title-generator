@@ -1,0 +1,26 @@
+{
+    "os": "Linux-5.4.0-1058-aws-x86_64-with-glibc2.10",
+    "python": "3.8.8",
+    "heartbeatAt": "2021-11-19T10:31:45.006899",
+    "startedAt": "2021-11-19T10:31:43.994240",
+    "docker": null,
+    "gpu": "Tesla T4",
+    "gpu_count": 1,
+    "cpu_count": 4,
+    "cuda": "10.0.130",
+    "args": [
+        "-f",
+        "/home/ubuntu/.local/share/jupyter/runtime/kernel-55bc0dc0-e94c-43c4-8def-adeb390cf8a7.json"
+    ],
+    "state": "running",
+    "program": "projects/abstract-to-title-generator/Train.ipynb",
+    "root": "/home/ubuntu/hub/projects/abstract-to-title-generator",
+    "git": {
+        "remote": "git@github.com:nerdimite/abstract-to-title-generator.git",
+        "commit": "169864c56a6ca241041d262af88bd1fd0ad6f023"
+    },
+    "email": null,
+    "host": "ip-10-0-66-187",
+    "username": "ubuntu",
+    "executable": "/home/ubuntu/anaconda3/envs/pytorch/bin/python"
+}

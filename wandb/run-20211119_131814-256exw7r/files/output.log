@@ -1,0 +1,293 @@
+CPU times: user 3min 39s, sys: 294 ms, total: 3min 39s
+Wall time: 3min 41s
+loading configuration file model-t5-base/checkpoint-6000/config.json
+Model config T5Config {
+  "_name_or_path": "t5-base",
+  "architectures": [
+    "T5ForConditionalGeneration"
+  ],
+  "d_ff": 3072,
+  "d_kv": 64,
+  "d_model": 768,
+  "decoder_start_token_id": 0,
+  "dropout_rate": 0.1,
+  "eos_token_id": 1,
+  "feed_forward_proj": "relu",
+  "initializer_factor": 1.0,
+  "is_encoder_decoder": true,
+  "layer_norm_epsilon": 1e-06,
+  "model_type": "t5",
+  "n_positions": 512,
+  "num_decoder_layers": 12,
+  "num_heads": 12,
+  "num_layers": 12,
+  "output_past": true,
+  "pad_token_id": 0,
+  "relative_attention_num_buckets": 32,
+  "task_specific_params": {
+    "summarization": {
+      "early_stopping": true,
+      "length_penalty": 2.0,
+      "max_length": 200,
+      "min_length": 30,
+      "no_repeat_ngram_size": 3,
+      "num_beams": 4,
+      "prefix": "summarize: "
+    },
+    "translation_en_to_de": {
+      "early_stopping": true,
+      "max_length": 300,
+      "num_beams": 4,
+      "prefix": "translate English to German: "
+    },
+    "translation_en_to_fr": {
+      "early_stopping": true,
+      "max_length": 300,
+      "num_beams": 4,
+      "prefix": "translate English to French: "
+    },
+    "translation_en_to_ro": {
+      "early_stopping": true,
+      "max_length": 300,
+      "num_beams": 4,
+      "prefix": "translate English to Romanian: "
+    }
+  },
+  "torch_dtype": "float32",
+  "transformers_version": "4.12.3",
+  "use_cache": true,
+  "vocab_size": 32128
+}
+loading weights file model-t5-base/checkpoint-6000/pytorch_model.bin
+All model checkpoint weights were used when initializing T5ForConditionalGeneration.
+All the weights of T5ForConditionalGeneration were initialized from the model checkpoint at model-t5-base/checkpoint-6000/.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use T5ForConditionalGeneration for predictions without further training.
+***** Running Evaluation *****
+  Num examples = 2005
+  Batch size = 8
+Truncation was not explicitly activated but `max_length` is provided a specific value, please use `truncation=True` to explicitly truncate examples to max length. Defaulting to 'longest_first' truncation strategy. If you encode pairs of sequences (GLUE-style) with the tokenizer you can select this strategy more precisely by providing a specific strategy to `truncation`.
+Convolutional Networks are often used to replace convolutional networks. Convolutional Networks are used to replace convolutional networks. Vision Transformer (ViT) performs very well on image classification tasks.. When pre-trained on large amounts of data and transferred to multiple benchmarks (ImageNet, CIFAR-100, VTAB, etc.), Vision Transformer (ViT) attains excellent results compared to state-of-the-art convolutional networks.
+attention is applied to sequences of image patches. convolutional networks are used to replace them. a pure transformer can perform very well on image classification tasks. large amounts of data and transferred to multiple benchmarks.
+entities may be unseen at training time. a learning framework called InductiveE. inductive learning setting. ATOMIC and ConceptNet benchmarks.......
+entities may be unseen at training time. a learning framework called InductiveE. inductive learning setting. ATOMIC and ConceptNet benchmarks....... A commonsense knowledge graph (CKG) is a special type of knowledge graph (KG).
+Commonsense reasoning is a fundamental cornerstone in building general AI systems. human'ssense reasoning. human's interactive fiction game playings.......
+Commonsense reasoning is an essential cornerstone in building general AI systems. It is a fundamental cornerstone in building general AI systems. In this paper, we propose a new commonsense reasoning dataset based on human's interactive fiction game playings as human players demonstrate abundant and diverse commonsense reasoning. The new dataset mitigates several limitations of the prior art.
+Commonsense reasoning is an essential cornerstone in building general AI systems. It is a fundamental cornerstone in building general AI systems. In this paper, we propose a new commonsense reasoning dataset based on human's interactive fiction game playings as human players demonstrate abundant and diverse commonsense reasoning. The new dataset mitigates several limitations of the prior art.
+loading configuration file model-t5-base/checkpoint-6000/config.json
+Model config T5Config {
+  "_name_or_path": "t5-base",
+  "architectures": [
+    "T5ForConditionalGeneration"
+  ],
+  "d_ff": 3072,
+  "d_kv": 64,
+  "d_model": 768,
+  "decoder_start_token_id": 0,
+  "dropout_rate": 0.1,
+  "eos_token_id": 1,
+  "feed_forward_proj": "relu",
+  "initializer_factor": 1.0,
+  "is_encoder_decoder": true,
+  "layer_norm_epsilon": 1e-06,
+  "model_type": "t5",
+  "n_positions": 512,
+  "num_decoder_layers": 12,
+  "num_heads": 12,
+  "num_layers": 12,
+  "output_past": true,
+  "pad_token_id": 0,
+  "relative_attention_num_buckets": 32,
+  "task_specific_params": {
+    "summarization": {
+      "early_stopping": true,
+      "length_penalty": 2.0,
+      "max_length": 200,
+      "min_length": 30,
+      "no_repeat_ngram_size": 3,
+      "num_beams": 4,
+      "prefix": "summarize: "
+    },
+    "translation_en_to_de": {
+      "early_stopping": true,
+      "max_length": 300,
+      "num_beams": 4,
+      "prefix": "translate English to German: "
+    },
+    "translation_en_to_fr": {
+      "early_stopping": true,
+      "max_length": 300,
+      "num_beams": 4,
+      "prefix": "translate English to French: "
+    },
+    "translation_en_to_ro": {
+      "early_stopping": true,
+      "max_length": 300,
+      "num_beams": 4,
+      "prefix": "translate English to Romanian: "
+    }
+  },
+  "torch_dtype": "float32",
+  "transformers_version": "4.12.3",
+  "use_cache": true,
+  "vocab_size": 32128
+}
+loading weights file model-t5-base/checkpoint-6000/pytorch_model.bin
+All model checkpoint weights were used when initializing T5ForConditionalGeneration.
+All the weights of T5ForConditionalGeneration were initialized from the model checkpoint at model-t5-base/checkpoint-6000/.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use T5ForConditionalGeneration for predictions without further training.
+Didn't find file model-t5-base/checkpoint-6000/added_tokens.json. We won't load it.
+loading file model-t5-base/checkpoint-6000/spiece.model
+loading file model-t5-base/checkpoint-6000/tokenizer.json
+loading file None
+loading file model-t5-base/checkpoint-6000/special_tokens_map.json
+loading file model-t5-base/checkpoint-6000/tokenizer_config.json
+Truncation was not explicitly activated but `max_length` is provided a specific value, please use `truncation=True` to explicitly truncate examples to max length. Defaulting to 'longest_first' truncation strategy. If you encode pairs of sequences (GLUE-style) with the tokenizer you can select this strategy more precisely by providing a specific strategy to `truncation`.
+loading configuration file model-t5-base/checkpoint-6000/config.json
+Model config T5Config {
+  "_name_or_path": "t5-base",
+  "architectures": [
+    "T5ForConditionalGeneration"
+  ],
+  "d_ff": 3072,
+  "d_kv": 64,
+  "d_model": 768,
+  "decoder_start_token_id": 0,
+  "dropout_rate": 0.1,
+  "eos_token_id": 1,
+  "feed_forward_proj": "relu",
+  "initializer_factor": 1.0,
+  "is_encoder_decoder": true,
+  "layer_norm_epsilon": 1e-06,
+  "model_type": "t5",
+  "n_positions": 512,
+  "num_decoder_layers": 12,
+  "num_heads": 12,
+  "num_layers": 12,
+  "output_past": true,
+  "pad_token_id": 0,
+  "relative_attention_num_buckets": 32,
+  "task_specific_params": {
+    "summarization": {
+      "early_stopping": true,
+      "length_penalty": 2.0,
+      "max_length": 200,
+      "min_length": 30,
+      "no_repeat_ngram_size": 3,
+      "num_beams": 4,
+      "prefix": "summarize: "
+    },
+    "translation_en_to_de": {
+      "early_stopping": true,
+      "max_length": 300,
+      "num_beams": 4,
+      "prefix": "translate English to German: "
+    },
+    "translation_en_to_fr": {
+      "early_stopping": true,
+      "max_length": 300,
+      "num_beams": 4,
+      "prefix": "translate English to French: "
+    },
+    "translation_en_to_ro": {
+      "early_stopping": true,
+      "max_length": 300,
+      "num_beams": 4,
+      "prefix": "translate English to Romanian: "
+    }
+  },
+  "torch_dtype": "float32",
+  "transformers_version": "4.12.3",
+  "use_cache": true,
+  "vocab_size": 32128
+}
+loading weights file model-t5-base/checkpoint-6000/pytorch_model.bin
+All model checkpoint weights were used when initializing T5ForConditionalGeneration.
+All the weights of T5ForConditionalGeneration were initialized from the model checkpoint at model-t5-base/checkpoint-6000/.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use T5ForConditionalGeneration for predictions without further training.
+A New Commonsense Reasoning Dataset Based on Interactive Fiction Game Playings
+loading configuration file model-t5-base/checkpoint-6000/config.json
+Model config T5Config {
+  "_name_or_path": "t5-base",
+  "architectures": [
+    "T5ForConditionalGeneration"
+  ],
+  "d_ff": 3072,
+  "d_kv": 64,
+  "d_model": 768,
+  "decoder_start_token_id": 0,
+  "dropout_rate": 0.1,
+  "eos_token_id": 1,
+  "feed_forward_proj": "relu",
+  "initializer_factor": 1.0,
+  "is_encoder_decoder": true,
+  "layer_norm_epsilon": 1e-06,
+  "model_type": "t5",
+  "n_positions": 512,
+  "num_decoder_layers": 12,
+  "num_heads": 12,
+  "num_layers": 12,
+  "output_past": true,
+  "pad_token_id": 0,
+  "relative_attention_num_buckets": 32,
+  "task_specific_params": {
+    "summarization": {
+      "early_stopping": true,
+      "length_penalty": 2.0,
+      "max_length": 200,
+      "min_length": 30,
+      "no_repeat_ngram_size": 3,
+      "num_beams": 4,
+      "prefix": "summarize: "
+    },
+    "translation_en_to_de": {
+      "early_stopping": true,
+      "max_length": 300,
+      "num_beams": 4,
+      "prefix": "translate English to German: "
+    },
+    "translation_en_to_fr": {
+      "early_stopping": true,
+      "max_length": 300,
+      "num_beams": 4,
+      "prefix": "translate English to French: "
+    },
+    "translation_en_to_ro": {
+      "early_stopping": true,
+      "max_length": 300,
+      "num_beams": 4,
+      "prefix": "translate English to Romanian: "
+    }
+  },
+  "torch_dtype": "float32",
+  "transformers_version": "4.12.3",
+  "use_cache": true,
+  "vocab_size": 32128
+}
+loading weights file model-t5-base/checkpoint-6000/pytorch_model.bin
+All model checkpoint weights were used when initializing T5ForConditionalGeneration.
+All the weights of T5ForConditionalGeneration were initialized from the model checkpoint at model-t5-base/checkpoint-6000/.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use T5ForConditionalGeneration for predictions without further training.
+Didn't find file model-t5-base/checkpoint-6000/added_tokens.json. We won't load it.
+loading file model-t5-base/checkpoint-6000/spiece.model
+loading file model-t5-base/checkpoint-6000/tokenizer.json
+loading file None
+loading file model-t5-base/checkpoint-6000/special_tokens_map.json
+loading file model-t5-base/checkpoint-6000/tokenizer_config.json
+***** Running Evaluation *****
+  Num examples = 2005
+  Batch size = 8
+CPU times: user 3min 40s, sys: 194 ms, total: 3min 40s
+Wall time: 3min 40s
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+Vision Transformers for Image Classification
+Truncation was not explicitly activated but `max_length` is provided a specific value, please use `truncation=True` to explicitly truncate examples to max length. Defaulting to 'longest_first' truncation strategy. If you encode pairs of sequences (GLUE-style) with the tokenizer you can select this strategy more precisely by providing a specific strategy to `truncation`.
+Turing's Postulations on Artificial Intelligence
+Meta-Learning Reinforcement Learning from Computational Graphs
+Transformer: A Simple Network Architecture for Sequence Transduction
+Self-Supervised Learning of Vision Transformers
+ConvMixer: An Extremely Simple Model for Vision Transformers
+Towards a Bot Assistant in Minecraft
+Towards a Bot Assistant in Minecraft
+A Bot Assistant for Minecraft
+Towards a Bot Assistant in Minecraft
+Towards a Bot Assistant in Minecraft

@@ -1,0 +1,104 @@
+2021-11-19 10:31:43,995 INFO    MainThread:29294 [wandb_setup.py:_flush():71] setting env: {}
+2021-11-19 10:31:43,995 INFO    MainThread:29294 [wandb_setup.py:_flush():71] setting login settings: {}
+2021-11-19 10:31:43,995 INFO    MainThread:29294 [wandb_setup.py:_flush():71] setting login settings: {'api_key': 'c41b4a6002b186eb86983234ec2856c52b648ea9'}
+2021-11-19 10:31:43,995 INFO    MainThread:29294 [wandb_init.py:_log_setup():357] Logging user logs to /home/ubuntu/hub/projects/abstract-to-title-generator/wandb/run-20211119_103143-2sbciy9p/logs/debug.log
+2021-11-19 10:31:43,995 INFO    MainThread:29294 [wandb_init.py:_log_setup():358] Logging internal logs to /home/ubuntu/hub/projects/abstract-to-title-generator/wandb/run-20211119_103143-2sbciy9p/logs/debug-internal.log
+2021-11-19 10:31:43,995 INFO    MainThread:29294 [wandb_init.py:_jupyter_setup():307] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fb5ca5a3040>
+2021-11-19 10:31:43,995 INFO    MainThread:29294 [wandb_init.py:init():390] calling init triggers
+2021-11-19 10:31:43,995 INFO    MainThread:29294 [wandb_init.py:init():395] wandb.init called with sweep_config: {}
+config: {}
+2021-11-19 10:31:43,995 INFO    MainThread:29294 [wandb_init.py:init():435] starting backend
+2021-11-19 10:31:43,996 INFO    MainThread:29294 [backend.py:_multiprocessing_setup():95] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-11-19 10:31:44,005 INFO    MainThread:29294 [backend.py:ensure_launched():199] starting backend process...
+2021-11-19 10:31:44,013 INFO    MainThread:29294 [backend.py:ensure_launched():204] started backend process with pid: 29383
+2021-11-19 10:31:44,014 INFO    MainThread:29294 [wandb_init.py:init():444] backend started and connected
+2021-11-19 10:31:44,035 INFO    MainThread:29294 [wandb_run.py:_label_probe_notebook():866] probe notebook
+2021-11-19 10:31:44,036 INFO    MainThread:29294 [wandb_run.py:_label_probe_notebook():876] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-11-19 10:31:44,036 INFO    MainThread:29294 [wandb_init.py:init():503] updated telemetry
+2021-11-19 10:31:44,118 INFO    MainThread:29294 [wandb_init.py:init():533] communicating current version
+2021-11-19 10:31:44,917 INFO    MainThread:29294 [wandb_init.py:init():538] got version response 
+2021-11-19 10:31:44,917 INFO    MainThread:29294 [wandb_init.py:init():548] communicating run to backend with 30 second timeout
+2021-11-19 10:31:45,002 INFO    MainThread:29294 [wandb_init.py:init():576] starting run threads in backend
+2021-11-19 10:31:46,684 INFO    MainThread:29294 [wandb_run.py:_console_start():1693] atexit reg
+2021-11-19 10:31:46,685 INFO    MainThread:29294 [wandb_run.py:_redirect():1567] redirect: SettingsConsole.WRAP
+2021-11-19 10:31:46,685 INFO    MainThread:29294 [wandb_run.py:_redirect():1604] Wrapping output streams.
+2021-11-19 10:31:46,686 INFO    MainThread:29294 [wandb_run.py:_redirect():1628] Redirects installed.
+2021-11-19 10:31:46,686 INFO    MainThread:29294 [wandb_init.py:init():603] run started, returning control to user process
+2021-11-19 10:31:46,690 INFO    MainThread:29294 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-19 10:31:46,690 INFO    MainThread:29294 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-11-19 10:31:46,696 INFO    MainThread:29294 [wandb_init.py:_resume_backend():279] resuming backend
+2021-11-19 10:31:47,331 INFO    MainThread:29294 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-19 10:31:47,331 INFO    MainThread:29294 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-11-19 10:31:47,335 INFO    MainThread:29294 [wandb_init.py:_resume_backend():279] resuming backend
+2021-11-19 10:31:47,342 INFO    MainThread:29294 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-19 10:31:47,342 INFO    MainThread:29294 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-11-19 10:31:47,347 INFO    MainThread:29294 [wandb_init.py:_resume_backend():279] resuming backend
+2021-11-19 10:31:47,348 INFO    MainThread:29294 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-19 10:31:47,348 INFO    MainThread:29294 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-11-19 10:31:47,356 INFO    MainThread:29294 [wandb_init.py:_resume_backend():279] resuming backend
+2021-11-19 10:31:47,357 INFO    MainThread:29294 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-19 10:31:47,358 INFO    MainThread:29294 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-11-19 10:31:47,362 INFO    MainThread:29294 [wandb_init.py:_resume_backend():279] resuming backend
+2021-11-19 10:32:04,731 INFO    MainThread:29294 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-19 10:32:04,732 INFO    MainThread:29294 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-11-19 10:32:04,735 INFO    MainThread:29294 [wandb_init.py:_resume_backend():279] resuming backend
+2021-11-19 10:32:04,750 INFO    MainThread:29294 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-19 10:32:04,750 INFO    MainThread:29294 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-11-19 10:32:04,754 INFO    MainThread:29294 [wandb_init.py:_resume_backend():279] resuming backend
+2021-11-19 10:32:04,756 INFO    MainThread:29294 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-19 10:32:04,756 INFO    MainThread:29294 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-11-19 10:32:04,761 INFO    MainThread:29294 [wandb_init.py:_resume_backend():279] resuming backend
+2021-11-19 10:32:05,449 INFO    MainThread:29294 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-19 10:32:05,449 INFO    MainThread:29294 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-11-19 10:32:05,456 INFO    MainThread:29294 [wandb_init.py:_resume_backend():279] resuming backend
+2021-11-19 10:32:20,530 INFO    MainThread:29294 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-19 10:32:20,530 INFO    MainThread:29294 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-11-19 10:32:20,535 INFO    MainThread:29294 [wandb_init.py:_resume_backend():279] resuming backend
+2021-11-19 10:32:20,740 INFO    MainThread:29294 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-19 10:32:20,740 INFO    MainThread:29294 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-11-19 10:32:20,743 INFO    MainThread:29294 [wandb_init.py:_resume_backend():279] resuming backend
+2021-11-19 10:32:20,744 INFO    MainThread:29294 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-19 10:32:20,744 INFO    MainThread:29294 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-11-19 10:32:20,749 INFO    MainThread:29294 [wandb_init.py:_resume_backend():279] resuming backend
+2021-11-19 10:32:20,980 INFO    MainThread:29294 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-19 10:32:20,981 INFO    MainThread:29294 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-11-19 10:33:13,956 INFO    MainThread:29294 [wandb_init.py:_resume_backend():279] resuming backend
+2021-11-19 10:33:13,960 INFO    MainThread:29294 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-19 10:33:13,960 INFO    MainThread:29294 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-11-19 10:33:22,793 INFO    MainThread:29294 [wandb_init.py:_resume_backend():279] resuming backend
+2021-11-19 10:35:55,035 INFO    MainThread:29294 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-19 10:35:55,036 INFO    MainThread:29294 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-11-19 10:36:21,497 INFO    MainThread:29294 [wandb_init.py:_resume_backend():279] resuming backend
+2021-11-19 10:36:35,361 INFO    MainThread:29294 [wandb_run.py:_config_callback():911] config_cb None None {'vocab_size': 32128, 'd_model': 768, 'd_kv': 64, 'd_ff': 3072, 'num_layers': 12, 'num_decoder_layers': 12, 'num_heads': 12, 'relative_attention_num_buckets': 32, 'dropout_rate': 0.1, 'layer_norm_epsilon': 1e-06, 'initializer_factor': 1.0, 'feed_forward_proj': 'relu', 'use_cache': True, 'return_dict': True, 'output_hidden_states': False, 'output_attentions': False, 'torchscript': False, 'torch_dtype': None, 'use_bfloat16': False, 'pruned_heads': {}, 'tie_word_embeddings': True, 'is_encoder_decoder': True, 'is_decoder': False, 'cross_attention_hidden_size': None, 'add_cross_attention': False, 'tie_encoder_decoder': False, 'max_length': 20, 'min_length': 0, 'do_sample': False, 'early_stopping': False, 'num_beams': 1, 'num_beam_groups': 1, 'diversity_penalty': 0.0, 'temperature': 1.0, 'top_k': 50, 'top_p': 1.0, 'repetition_penalty': 1.0, 'length_penalty': 1.0, 'no_repeat_ngram_size': 0, 'encoder_no_repeat_ngram_size': 0, 'bad_words_ids': None, 'num_return_sequences': 1, 'chunk_size_feed_forward': 0, 'output_scores': False, 'return_dict_in_generate': False, 'forced_bos_token_id': None, 'forced_eos_token_id': None, 'remove_invalid_values': False, 'architectures': ['T5WithLMHeadModel'], 'finetuning_task': None, 'id2label': {0: 'LABEL_0', 1: 'LABEL_1'}, 'label2id': {'LABEL_0': 0, 'LABEL_1': 1}, 'tokenizer_class': None, 'prefix': None, 'bos_token_id': None, 'pad_token_id': 0, 'eos_token_id': 1, 'sep_token_id': None, 'decoder_start_token_id': 0, 'task_specific_params': {'summarization': {'early_stopping': True, 'length_penalty': 2.0, 'max_length': 200, 'min_length': 30, 'no_repeat_ngram_size': 3, 'num_beams': 4, 'prefix': 'summarize: '}, 'translation_en_to_de': {'early_stopping': True, 'max_length': 300, 'num_beams': 4, 'prefix': 'translate English to German: '}, 'translation_en_to_fr': {'early_stopping': True, 'max_length': 300, 'num_beams': 4, 'prefix': 'translate English to French: '}, 'translation_en_to_ro': {'early_stopping': True, 'max_length': 300, 'num_beams': 4, 'prefix': 'translate English to Romanian: '}}, 'problem_type': None, '_name_or_path': 't5-base', 'transformers_version': '4.12.3', 'model_type': 't5', 'n_positions': 512, 'output_past': True, 'output_dir': 'model-t5-base', 'overwrite_output_dir': False, 'do_train': False, 'do_eval': True, 'do_predict': False, 'evaluation_strategy': 'steps', 'prediction_loss_only': False, 'per_device_train_batch_size': 8, 'per_device_eval_batch_size': 8, 'per_gpu_train_batch_size': 'None', 'per_gpu_eval_batch_size': 'None', 'gradient_accumulation_steps': 1, 'eval_accumulation_steps': 'None', 'learning_rate': 5.6e-05, 'weight_decay': 0.01, 'adam_beta1': 0.9, 'adam_beta2': 0.999, 'adam_epsilon': 1e-08, 'max_grad_norm': 1.0, 'num_train_epochs': 8, 'max_steps': -1, 'lr_scheduler_type': 'linear', 'warmup_ratio': 0.0, 'warmup_steps': 0, 'log_level': -1, 'log_level_replica': -1, 'log_on_each_node': True, 'logging_dir': 'model-t5-base/runs/Nov19_10-33-13_ip-10-0-66-187', 'logging_strategy': 'steps', 'logging_first_step': False, 'logging_steps': 50, 'logging_nan_inf_filter': True, 'save_strategy': 'steps', 'save_steps': 500, 'save_total_limit': 3, 'save_on_each_node': False, 'no_cuda': False, 'seed': 42, 'fp16': False, 'fp16_opt_level': 'O1', 'fp16_backend': 'auto', 'fp16_full_eval': False, 'local_rank': -1, 'xpu_backend': 'None', 'tpu_num_cores': 'None', 'tpu_metrics_debug': False, 'debug': '[]', 'dataloader_drop_last': False, 'eval_steps': 1000, 'dataloader_num_workers': 0, 'past_index': -1, 'run_name': 'model-t5-base', 'disable_tqdm': False, 'remove_unused_columns': True, 'label_names': 'None', 'load_best_model_at_end': False, 'metric_for_best_model': 'None', 'greater_is_better': 'None', 'ignore_data_skip': False, 'sharded_ddp': '[]', 'deepspeed': 'None', 'label_smoothing_factor': 0.0, 'adafactor': False, 'group_by_length': True, 'length_column_name': 'length', 'report_to': "['wandb']", 'ddp_find_unused_parameters': 'None', 'dataloader_pin_memory': True, 'skip_memory_metrics': True, 'use_legacy_prediction_loop': False, 'push_to_hub': False, 'resume_from_checkpoint': 'None', 'hub_model_id': 'None', 'hub_strategy': 'every_save', 'hub_token': '<HUB_TOKEN>', 'gradient_checkpointing': False, 'push_to_hub_model_id': 'None', 'push_to_hub_organization': 'None', 'push_to_hub_token': '<PUSH_TO_HUB_TOKEN>', '_n_gpu': 1, 'mp_parameters': '', 'sortish_sampler': False, 'predict_with_generate': True, 'generation_max_length': 'None', 'generation_num_beams': 'None', 'train_batch_size': 8, 'eval_batch_size': 8}
+2021-11-19 10:36:35,363 INFO    MainThread:29294 [wandb_watch.py:watch():43] Watching
+2021-11-19 10:58:02,577 INFO    MainThread:29294 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-19 10:58:02,577 INFO    MainThread:29294 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-11-19 11:00:16,751 INFO    MainThread:29294 [wandb_init.py:_resume_backend():279] resuming backend
+2021-11-19 11:00:16,761 INFO    MainThread:29294 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-19 11:00:16,761 INFO    MainThread:29294 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-11-19 11:00:24,759 INFO    MainThread:29294 [wandb_init.py:_resume_backend():279] resuming backend
+2021-11-19 11:00:24,760 INFO    MainThread:29294 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-19 11:00:24,760 INFO    MainThread:29294 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-11-19 11:00:25,940 INFO    MainThread:29294 [wandb_init.py:_resume_backend():279] resuming backend
+2021-11-19 11:00:26,279 INFO    MainThread:29294 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-19 11:00:26,279 INFO    MainThread:29294 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-11-19 11:00:36,773 INFO    MainThread:29294 [wandb_init.py:_resume_backend():279] resuming backend
+2021-11-19 11:00:36,775 INFO    MainThread:29294 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-19 11:00:36,775 INFO    MainThread:29294 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-11-19 11:01:00,904 INFO    MainThread:29294 [wandb_init.py:_resume_backend():279] resuming backend
+2021-11-19 11:01:00,905 INFO    MainThread:29294 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-19 11:01:00,905 INFO    MainThread:29294 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-11-19 11:01:02,265 INFO    MainThread:29294 [wandb_init.py:_resume_backend():279] resuming backend
+2021-11-19 11:01:02,269 INFO    MainThread:29294 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-19 11:01:02,269 INFO    MainThread:29294 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-11-19 11:01:13,110 INFO    MainThread:29294 [wandb_init.py:_resume_backend():279] resuming backend
+2021-11-19 11:01:13,120 INFO    MainThread:29294 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-19 11:01:13,121 INFO    MainThread:29294 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-11-19 11:01:16,771 INFO    MainThread:29294 [wandb_init.py:_resume_backend():279] resuming backend
+2021-11-19 11:01:30,453 INFO    MainThread:29294 [wandb_run.py:_config_callback():911] config_cb None None {'vocab_size': 32128, 'd_model': 768, 'd_kv': 64, 'd_ff': 3072, 'num_layers': 12, 'num_decoder_layers': 12, 'num_heads': 12, 'relative_attention_num_buckets': 32, 'dropout_rate': 0.1, 'layer_norm_epsilon': 1e-06, 'initializer_factor': 1.0, 'feed_forward_proj': 'relu', 'use_cache': True, 'return_dict': True, 'output_hidden_states': False, 'output_attentions': False, 'torchscript': False, 'torch_dtype': 'float32', 'use_bfloat16': False, 'pruned_heads': {}, 'tie_word_embeddings': True, 'is_encoder_decoder': True, 'is_decoder': False, 'cross_attention_hidden_size': None, 'add_cross_attention': False, 'tie_encoder_decoder': False, 'max_length': 20, 'min_length': 0, 'do_sample': False, 'early_stopping': False, 'num_beams': 1, 'num_beam_groups': 1, 'diversity_penalty': 0.0, 'temperature': 1.0, 'top_k': 50, 'top_p': 1.0, 'repetition_penalty': 1.0, 'length_penalty': 1.0, 'no_repeat_ngram_size': 0, 'encoder_no_repeat_ngram_size': 0, 'bad_words_ids': None, 'num_return_sequences': 1, 'chunk_size_feed_forward': 0, 'output_scores': False, 'return_dict_in_generate': False, 'forced_bos_token_id': None, 'forced_eos_token_id': None, 'remove_invalid_values': False, 'architectures': ['T5ForConditionalGeneration'], 'finetuning_task': None, 'id2label': {0: 'LABEL_0', 1: 'LABEL_1'}, 'label2id': {'LABEL_0': 0, 'LABEL_1': 1}, 'tokenizer_class': None, 'prefix': None, 'bos_token_id': None, 'pad_token_id': 0, 'eos_token_id': 1, 'sep_token_id': None, 'decoder_start_token_id': 0, 'task_specific_params': {'summarization': {'early_stopping': True, 'length_penalty': 2.0, 'max_length': 200, 'min_length': 30, 'no_repeat_ngram_size': 3, 'num_beams': 4, 'prefix': 'summarize: '}, 'translation_en_to_de': {'early_stopping': True, 'max_length': 300, 'num_beams': 4, 'prefix': 'translate English to German: '}, 'translation_en_to_fr': {'early_stopping': True, 'max_length': 300, 'num_beams': 4, 'prefix': 'translate English to French: '}, 'translation_en_to_ro': {'early_stopping': True, 'max_length': 300, 'num_beams': 4, 'prefix': 'translate English to Romanian: '}}, 'problem_type': None, '_name_or_path': 't5-base', 'transformers_version': '4.12.3', 'model_type': 't5', 'n_positions': 512, 'output_past': True, 'output_dir': 'model-t5-base', 'overwrite_output_dir': False, 'do_train': False, 'do_eval': True, 'do_predict': False, 'evaluation_strategy': 'steps', 'prediction_loss_only': False, 'per_device_train_batch_size': 8, 'per_device_eval_batch_size': 8, 'per_gpu_train_batch_size': 'None', 'per_gpu_eval_batch_size': 'None', 'gradient_accumulation_steps': 1, 'eval_accumulation_steps': 'None', 'learning_rate': 5.6e-05, 'weight_decay': 0.01, 'adam_beta1': 0.9, 'adam_beta2': 0.999, 'adam_epsilon': 1e-08, 'max_grad_norm': 1.0, 'num_train_epochs': 5, 'max_steps': -1, 'lr_scheduler_type': 'linear', 'warmup_ratio': 0.0, 'warmup_steps': 0, 'log_level': -1, 'log_level_replica': -1, 'log_on_each_node': True, 'logging_dir': 'model-t5-base/runs/Nov19_11-01-02_ip-10-0-66-187', 'logging_strategy': 'steps', 'logging_first_step': False, 'logging_steps': 50, 'logging_nan_inf_filter': True, 'save_strategy': 'steps', 'save_steps': 500, 'save_total_limit': 3, 'save_on_each_node': False, 'no_cuda': False, 'seed': 42, 'fp16': False, 'fp16_opt_level': 'O1', 'fp16_backend': 'auto', 'fp16_full_eval': False, 'local_rank': -1, 'xpu_backend': 'None', 'tpu_num_cores': 'None', 'tpu_metrics_debug': False, 'debug': '[]', 'dataloader_drop_last': False, 'eval_steps': 1000, 'dataloader_num_workers': 0, 'past_index': -1, 'run_name': 'model-t5-base', 'disable_tqdm': False, 'remove_unused_columns': True, 'label_names': 'None', 'load_best_model_at_end': False, 'metric_for_best_model': 'None', 'greater_is_better': 'None', 'ignore_data_skip': False, 'sharded_ddp': '[]', 'deepspeed': 'None', 'label_smoothing_factor': 0.0, 'adafactor': False, 'group_by_length': True, 'length_column_name': 'length', 'report_to': "['wandb']", 'ddp_find_unused_parameters': 'None', 'dataloader_pin_memory': True, 'skip_memory_metrics': True, 'use_legacy_prediction_loop': False, 'push_to_hub': False, 'resume_from_checkpoint': True, 'hub_model_id': 'None', 'hub_strategy': 'every_save', 'hub_token': '<HUB_TOKEN>', 'gradient_checkpointing': False, 'push_to_hub_model_id': 'None', 'push_to_hub_organization': 'None', 'push_to_hub_token': '<PUSH_TO_HUB_TOKEN>', '_n_gpu': 1, 'mp_parameters': '', 'sortish_sampler': False, 'predict_with_generate': True, 'generation_max_length': 'None', 'generation_num_beams': 'None', 'train_batch_size': 8, 'eval_batch_size': 8}
+2021-11-19 11:01:30,456 INFO    MainThread:29294 [wandb_watch.py:watch():43] Watching
+2021-11-19 13:11:56,312 INFO    MainThread:29294 [wandb_init.py:_pause_backend():270] pausing backend
+2021-11-19 13:11:56,313 INFO    MainThread:29294 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2021-11-19 13:12:58,795 INFO    MainThread:29294 [wandb_run.py:_atexit_cleanup():1663] got exitcode: 0
+2021-11-19 13:12:58,796 INFO    MainThread:29294 [wandb_run.py:_restore():1635] restore
+2021-11-19 13:12:59,155 INFO    MainThread:29294 [wandb_run.py:_restore():1635] restore
