@@ -39,7 +39,7 @@ export default function Home() {
           method: "POST",
           body: JSON.stringify({
             service_id: "abstract2title",
-            input: { abstract: "Random Text" },
+            input: { abstract: "Random Text to Ping Model" },
           }),
         }
       );
@@ -119,6 +119,7 @@ export default function Home() {
             <ExamplesDropdown
               setAbstract={(val) => {
                 document.getElementById("abstract").value = val;
+                setAbstract(val);
               }}
             />
           </div>

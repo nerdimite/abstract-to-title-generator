@@ -25,7 +25,7 @@ export const Textarea = (props) => {
     <textarea
       type="text"
       className="w-full resize-none mt-1 p-2 border rounded-md text-gray-700 focus:outline-none focus:border-blue-600"
-      rows="6"
+      rows="8"
       {...props}
     />
   );
