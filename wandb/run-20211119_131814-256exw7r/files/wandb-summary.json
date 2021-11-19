@@ -1,1 +1,0 @@
-{"eval/loss": 1.6707532405853271, "eval/rouge1": 47.1746, "eval/rouge2": 26.8231, "eval/rougeL": 41.7727, "eval/rougeLsum": 41.8263, "eval/runtime": 220.717, "eval/samples_per_second": 9.084, "eval/steps_per_second": 1.137, "train/global_step": 0, "_runtime": 750, "_timestamp": 1637328644, "_step": 1}
