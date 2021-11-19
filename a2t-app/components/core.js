@@ -1,6 +1,8 @@
 export const Container = (props) => {
   return (
-    <div className="md:container md:w-3/5 space-y-4 mx-4">{props.children}</div>
+    <div className="md:container md:w-3/5 space-y-4 mt-4 mb-10">
+      {props.children}
+    </div>
   );
 };
 
