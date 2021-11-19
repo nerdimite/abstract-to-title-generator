@@ -97,11 +97,11 @@ export default function Home() {
       {/* <main className="flex flex-col w-full flex-1 px-20"> */}
       <Container>
         <div className="text-center mb-6">
-          <h1 className="text-4xl font-bold text-blue-600 mt-4">
+          <h1 className="text-2xl md:text-4xl font-bold text-blue-600 mt-4">
             🤖 Abstract2Title Generator ✒️
           </h1>
 
-          <p className="mt-3 text-xl text-gray-700">
+          <p className="mt-3 text-lg md:text-xl text-gray-700">
             A T5-based Sequence to Sequence Model for Generating Titles for ML
             Papers using the Abstract{" "}
           </p>
@@ -141,7 +141,7 @@ export default function Home() {
               setAbstract(e.target.value);
             }}
           />
-          <div className="flex justify-between items-start">
+          <div className="flex justify-between items-start flex-wrap">
             <p>
               <span className="font-semibold text-gray-700">Status:</span>{" "}
               {status}
