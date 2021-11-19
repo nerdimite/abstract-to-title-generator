@@ -12,19 +12,22 @@ export const Paper = (props) => {
   );
 };
 
+export const Label = (props) => {
+  return (
+    <div className="text-gray-600 font-semibold text-lg mb-1">
+      {props.children}
+    </div>
+  );
+};
+
 export const Textarea = (props) => {
   return (
-    <div>
-      <label className="text-gray-600 font-semibold text-lg bg-white">
-        {props.label}
-      </label>
-      <textarea
-        type="text"
-        className="w-full resize-none mt-1 p-2 border rounded-md text-gray-700 focus:outline-none focus:border-blue-600"
-        rows="6"
-        {...props}
-      />
-    </div>
+    <textarea
+      type="text"
+      className="w-full resize-none mt-1 p-2 border rounded-md text-gray-700 focus:outline-none focus:border-blue-600"
+      rows="6"
+      {...props}
+    />
   );
 };
 

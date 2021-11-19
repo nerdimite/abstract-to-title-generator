@@ -3,13 +3,16 @@ import { useEffect, useState } from "react";
 import {
   Container,
   Paper,
+  Label,
   Textarea,
   Button,
   BadgeButton,
 } from "../components/core";
+import ExamplesDropdown from "../components/ExamplesDropdown";
 
 export default function Home() {
   const [abstract, setAbstract] = useState();
+  const [defaultAbstract, setDefaultAbstract] = useState();
   const [title, setTitle] = useState("");
   const [status, setStatus] = useState("");
   const [loading, setLoading] = useState(false);
@@ -117,8 +120,16 @@ export default function Home() {
         </div>
 
         <Paper>
+          <div className="flex justify-between items-center">
+            <Label>Abstract of the Paper 📜</Label>
+            <ExamplesDropdown
+              setAbstract={(val) => {
+                document.getElementById("abstract").value = val;
+              }}
+            />
+          </div>
           <Textarea
-            label="Abstract of the Paper 📜"
+            id="abstract"
             placeholder="Enter the Abstract of an AI Paper"
             onChange={(e) => {
               setAbstract(e.target.value);
@@ -141,9 +152,7 @@ export default function Home() {
         </Paper>
 
         <Paper>
-          <div className="text-gray-600 font-semibold text-lg mb-2">
-            Generated Title ✒️
-          </div>
+          <Label>Generated Title ✒️</Label>
           <div className="text-gray-600 text-lg border p-2">{title}</div>
         </Paper>
       </Container>
