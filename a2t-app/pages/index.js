@@ -38,11 +38,8 @@ export default function Home() {
           },
           method: "POST",
           body: JSON.stringify({
-            service_id: "zero-shot",
-            input: {
-              text: "Random Text",
-              classes: ["technology", "sports"],
-            },
+            service_id: "abstract2title",
+            input: { abstract: "Random Text" },
           }),
         }
       );
@@ -71,11 +68,8 @@ export default function Home() {
           },
           method: "POST",
           body: JSON.stringify({
-            service_id: "zero-shot",
-            input: {
-              text: abstract,
-              classes: ["science", "politics"],
-            },
+            service_id: "abstract2title",
+            input: { abstract: abstract },
           }),
         }
       );
