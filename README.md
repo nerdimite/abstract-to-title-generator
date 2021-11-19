@@ -4,7 +4,7 @@ Abstract2Title is a Seq2Seq Model finetuned from T5-base that generates titles f
 
 ## Live Demo and Experiment Details
 
-This model is hosted as an API on [CellStrat Hub](https://cellstrathub.com/) and the Interactive Web Demo can be accessed at [htttps://abstract2title.netlify.app](htttps://abstract2title.netlify.app)
+This model is hosted as an API on [CellStrat Hub](https://cellstrathub.com/) and the Interactive Web Demo can be accessed at [https://abstract2title.netlify.app](https://abstract2title.netlify.app)
 
 Checkout the [Weights and Biases Experiment](https://wandb.ai/nerdimite/abstract-to-title) for complete training and evaluation results. TLDR; The final evaluation results are:
 
