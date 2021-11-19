@@ -2,9 +2,21 @@
 
 Abstract2Title is a Seq2Seq Model finetuned from T5-base that generates titles for your machine learning papers using the abstract. The model is trained using a subset of the arXiv dataset categorized in the `cs.AI` category that has 40k articles. _(The full arXiv dataset contains 1.7 million scientific articles)_
 
-## Check out the Live Demo
+## Live Demo and Experiment Details
 
 This model is hosted as an API on [CellStrat Hub](https://cellstrathub.com/) and the Interactive Web Demo can be accessed at [htttps://abstract2title.netlify.app]
+
+Checkout the [Weights and Biases Experiment](https://wandb.ai/nerdimite/abstract-to-title) for complete training and evaluation results. TLDR; The final evaluation results are:
+```
+{'eval_loss': 1.6707532405853271,
+ 'eval_rouge1': 47.1746,
+ 'eval_rouge2': 26.8231,
+ 'eval_rougeL': 41.7727,
+ 'eval_rougeLsum': 41.8263,
+ 'eval_runtime': 220.717,
+ 'eval_samples_per_second': 9.084,
+ 'eval_steps_per_second': 1.137}
+```
 
 ## Usage
 
