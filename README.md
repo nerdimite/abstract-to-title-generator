@@ -21,6 +21,11 @@ Checkout the [Weights and Biases Experiment](https://wandb.ai/nerdimite/abstract
 
 ## Usage
 
+Before proceeding, make sure to install the required libraries with,
+```bash
+pip install -r requirements.txt
+```
+
 ### Dataset
 
 This repository contains the processed dataset already in [arxiv_AI_dataset/](arxiv_AI_dataset). If you want to train on new categories, you can follow the steps below to obtain the original and full dataset.
