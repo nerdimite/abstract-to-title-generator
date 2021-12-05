@@ -21,6 +21,11 @@ Checkout the [Weights and Biases Experiment](https://wandb.ai/nerdimite/abstract
 
 ## Usage
 
+Before proceeding, make sure to install the required libraries with,
+```bash
+pip install -r requirements.txt
+```
+
 ### Dataset
 
 This repository contains the processed dataset already in [arxiv_AI_dataset/](arxiv_AI_dataset). If you want to train on new categories, you can follow the steps below to obtain the original and full dataset.
@@ -42,3 +47,7 @@ To train the model, run the [Train.ipynb](Train.ipynb) notebook. For logging in 
 
 - The model is deployed as an API using [CellStrat Hub](https://cellstrathub.com/). You can learn more about deployment [here](https://docs.cellstrathub.com/hubapi%20deployment%20%F0%9F%9A%80/quickstart/)
 - The Next.js Frontend App's source code can be found at [a2t-app/](a2t-app/)
+
+## References
+
+- [Hugging Face Course](https://huggingface.co/course/chapter7/5?fw=pt)
