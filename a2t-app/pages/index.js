@@ -57,7 +57,7 @@ export default function Home() {
           headers: {
             "Content-Type": "application/json",
             Accept: "application/json",
-            "x-api-key": "CJaYCj7gL3azRRolVuEcm8G9Baam9b8L7m9gW0sl",
+            "x-api-key": "VOgktoL7fj1SUDlcyPh8f9LQGLS0e3wO3BKZhh4I",
           },
           method: "POST",
           body: JSON.stringify({
