@@ -29,11 +29,7 @@ export default function Home() {
             Accept: "application/json",
             "x-api-key": "uH4mo8miig9mueJgbxsRa7pN0nryEXPb6gJTpBuL",
           },
-          method: "POST",
-          body: JSON.stringify({
-            service_id: "abstract2title",
-            input: { abstract: "Random Text to Ping Model" },
-          }),
+          method: "GET",
         }
       );
       const response = await raw_response.json();
@@ -52,24 +48,20 @@ export default function Home() {
 
     try {
       const raw_response = await fetch(
-        "https://api.cellstrathub.com/synchronous",
+        "https://api.cellstrathub.com/nerdimite/abstract2title-v2",
         {
           headers: {
             "Content-Type": "application/json",
             Accept: "application/json",
-            "x-api-key": "VOgktoL7fj1SUDlcyPh8f9LQGLS0e3wO3BKZhh4I",
+            "x-api-key": "uH4mo8miig9mueJgbxsRa7pN0nryEXPb6gJTpBuL",
           },
           method: "POST",
-          body: JSON.stringify({
-            service_id: "abstract2title",
-            input: { abstract: abstract },
-          }),
+          body: abstract,
         }
       );
       const response = await raw_response.json();
       console.log(response);
-      const body = JSON.parse(response["body"]);
-      const output = JSON.parse(body["output"]);
+      const output = response.body.output;
       setTitle(output);
     } catch (err) {
       console.log(err);
