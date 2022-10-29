@@ -99,21 +99,6 @@ export default function Home() {
         <Paper>
           <div className="flex justify-between items-center mb-2">
             <Label>About the project</Label>
-            <a
-              href="https://github.com/nerdimite/abstract-to-title-generator"
-              target="_blank"
-            >
-              <div
-                className="py-2 px-3  inline-block rounded-full \
-                  bg-blue-200 text-sm hover:cursor-pointer hover:ring-1 hover:ring-blue-600 \
-                  transition ease-in-out duration-200"
-              >
-                <span className="font-semibold text-blue-600">
-                  Get Source Code{" "}
-                </span>
-                💻
-              </div>
-            </a>
           </div>
           <p className="mb-2 text-base text-gray-700">
             Writing a research paper is one thing and coming up with a catchy
